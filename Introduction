@@ -19,7 +19,7 @@ What are the components of Power BI
 4. DAX view
 
 What is DAX
-Data Analysis expression is a formula language used for calculations
+Data Analysis expression is a formula language used for calculations, measures and custom tables
 
 What is power BI Gateway ?
 Power BI Gateway is the gateway that connects the cloud to on-premises data. 
@@ -36,6 +36,9 @@ What is a report
 Detailed analysis, drill down, updates are scheduled.
 
 what is calculated column?
+
+Calculated column is computed row by row. Calculated Column is created in table view by adding new column 
+e.g FullName = Customers[FirstName] & " " & Customers[LastName]
 
 what is a measure 
 
