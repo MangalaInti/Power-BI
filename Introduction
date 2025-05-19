@@ -1,1 +1,56 @@
+What is Power BI
+PowerBI is a Business intelligence tool which will help you to analyse and transform your data into visual format. 
+It is also called Data visualization tool developed by microsoft
+It is used for decision making and analytical purpose.
+
+What is cardinality?
+Cardinality represents the type relationship between two tables
+ 1. Many to one
+ 2. One to one
+ 3. Many to Many
+
+what is Power BI service?
+It is cloud based platform  where we can publish  reports and dashboards
+
+What are the components of Power BI
+1. Power query editor
+2. Report view
+3. Model view
+4. DAX view
+
+What is DAX
+Data Analysis expression is a formula language used for calculations
+
+What is power BI Gateway ?
+Power BI Gateway is the gateway that connects the cloud to on-premises data. 
+Power BI gateway acts as a bridge that allows connection between the on-premises data sources and Microsoft cloud services
+There are two types Gateways
+1. Personal mode
+2. On-premises
+
+
+What is Dashboard?
+Dashboard is a single page layout, realtime data, used for Decision makers and KPI's
+
+What is a report
+Detailed analysis, drill down, updates are scheduled.
+
+what is calculated column?
+
+what is a measure 
+
+
+What are virtual Table?
+Virtual tables are in-memory tables that we build using specific DAX functions. They are not physically stored in model
+ The data in virtual table is either derived from the data within data model
+
+--uses of Virtual tables
+ Table = CALCULATETABLE => Virtual table
+
+Measure = CALCULATE => Virtual table
+
+--Practical case
+1. Create a virtual table within a calculated table
+2. Create a virtual table within a measure
+
 
