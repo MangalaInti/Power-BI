@@ -41,7 +41,10 @@ Calculated column is computed row by row. Calculated Column is created in table 
 e.g FullName = Customers[FirstName] & " " & Customers[LastName]
 
 what is a measure 
-
+Aggregated column, summarizes data into single column. It is calculated at runtime
+e.g TotalSales = sum([SalesAmount])
+    TotalProfit = sum[SalesAmount] -sum[costAmount]
+Prev_Year_Sale = CALCULATE sum
 
 What are virtual Table?
 Virtual tables are in-memory tables that we build using specific DAX functions. They are not physically stored in model
