@@ -1,0 +1,42 @@
+1.How to handle missing values in power BI
+
+2. What is DAX, give me an example of DAX
+Data Analysis Expression is formula language used for calculation
+Right click on table - Create New measure, there are numerios DAX functions based on our need we can utilize them
+
+DAX is used custom calculations
+-Measures
+-Calculated columns
+-Time intelligence
+
+Scenario:
+--I want to count the number of rows in the Pay table where the Salary is equal to 3,000.
+NumberofRows = COUNTROWS(FILTER(PAY, PAY[SALARY]=3000))
+
+3. What is RLS, how do you implement RLS
+RLS Row level security 
+
+4. Explain the process of publishing the report?
+
+5. How to create Relationships in BI
+
+Customer vs Orders (1:many)
+
+6. How to schedule refresh in power BI?
+  App.PowerBI.com and go your workspace
+
+7. How to perform join operations?
+In Power query editor we have appending, merging
+Merge option works based on joins - Drops duplicate rows
+append - Combining two tables - Retains duplicate rows
+
+8.What are good practices in power BI
+
+When create measures - always take blank query, under blank query - create measure, we track all measure at one place.
+Always use certified visuals
+When you are working on Live data - use import mode, once you built visual, switch to direct mode.
+
+
+
+
+
