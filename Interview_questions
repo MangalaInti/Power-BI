@@ -36,6 +36,25 @@ When create measures - always take blank query, under blank query - create measu
 Always use certified visuals
 When you are working on Live data - use import mode, once you built visual, switch to direct mode.
 
+9. Where the data is stored in power BI
+   It can be stored in cloud or desktop depends on channel you import the data
+10. Can we update a view
+    Yes
+UPDATE emp_view
+SET salary = salary + 1000
+WHERE emp_id = 101;
+
+11. How to create a dashboard in power BI.
+Before creating a dashboard
+1. Get data
+2. Transform data using power query editor
+3. Report view and create visual
+4. Choose a Dashboard: Select whether to pin the visual to an existing dashboard or create a new one.
+5. Repeat Pinning: Pin multiple visuals from different pages of your report to the same dashboard or to different dashboards. 
+
+we can't create dashboard in power BI desktop, it has to be created in power BI service 
+workspace - > click on pin visual icon
+
 
 
 
