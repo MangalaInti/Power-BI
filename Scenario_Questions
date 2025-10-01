@@ -3,4 +3,5 @@
 
 A. 'Hit Refresh Now' option for the dataset on Power BI portal
 Explanation: 
-Since the data source is on cloud, there's no need of gateway to refresh data on Power BI. User can directly refresh the dataset on Power BI service by using 'Rerfresh Now' option.
+Since the data source is on cloud, there's no need of gateway to refresh data on Power BI. User can directly refresh the dataset on Power BI 
+service by using 'Rerfresh Now' option.
