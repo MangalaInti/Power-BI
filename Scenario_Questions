@@ -1,0 +1,6 @@
+1. Taylor has been asked to create report using the database table on Azure SQL server database. After creating and publishing the report 
+  on Power BI Portal the table in Azure SQL server database is updated with new data. Which would be the most appropriate way to refresh the report?
+
+A. 'Hit Refresh Now' option for the dataset on Power BI portal
+Explanation: 
+Since the data source is on cloud, there's no need of gateway to refresh data on Power BI. User can directly refresh the dataset on Power BI service by using 'Rerfresh Now' option.
