@@ -1,0 +1,4 @@
+1. Display overall sales of the company
+   - Import the sales table 
+   - In table view - add new measure with formula - Total_Sales = CALCULATE(sum(FactInternetSales[SalesAmount]))
+   - Go to Report view - From build visual select card - From Data select Measure Total_sales
