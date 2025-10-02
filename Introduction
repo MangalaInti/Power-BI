@@ -1,3 +1,4 @@
+
 What is Power BI
 PowerBI is a Business intelligence tool which will help you to analyse and transform your data into visual format. 
 It is also called Data visualization tool developed by microsoft
@@ -59,4 +60,20 @@ Measure = CALCULATE => Virtual table
 1. Create a virtual table within a calculated table
 2. Create a virtual table within a measure
 
+****
+Power BI Desktop can connect to different on premise and cloud data sources to extract data from them.
+
+After data extraction, you can transform data and create reports on Power BI Desktop.
+
+After reports are created, you can publish them to the Power BI portal. The datasets are also published along with the reports. 
+In Power BI portal, dashboards can be created from the published reports by pinning them live.
+
+Reports published on portal can be refreshed manually or scheduled for auto-refresh at periodic intervals. 
+If a report is created using a dataset that resides on cloud, it is refreshed directly since dataset and report 
+(remember, it’s deployed on portal which is on cloud too) both are on cloud.
+
+If a report is created using a dataset that resides on premise then refresh happens through the personal gateway.
+
+The dashboards can be viewed by different users in Power BI  desktop application, mobile app (for Android & iOS) or web browsers.
+***
 
